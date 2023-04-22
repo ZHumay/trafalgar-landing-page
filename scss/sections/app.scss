@@ -1,0 +1,42 @@
+.mobile_apps {
+    @include display;
+    margin-top: 90px;
+    .mobile_text {
+      width: 420px;
+      display: flex;
+      flex-direction: column;
+  
+      h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        color: #000000;
+      }
+      .hr {
+        margin-top: 26px;
+        width: 56px;
+        height: 2px;
+        background-color: black;
+      }
+      p {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 31px;
+        color: #7d7987;
+      }
+      button {
+        width: 200px;
+        height: 60px;
+        border-radius: 55px;
+        border: 1px solid $backgroundColor;
+        color: $backgroundColor;
+        background-color:$color;
+        margin-top: 37px;
+      }
+      .download {
+        transform: translateY(2px);
+      }
+    }
+  }
+  

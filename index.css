@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Mulish", sans-serif;
-}
-
 section {
   max-width: 1600px;
 }
@@ -292,9 +285,9 @@ section header .main .main_img {
 
 .mobile_apps {
   display: flex;
-  margin-top: 90px;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
+  margin-top: 90px;
 }
 .mobile_apps .mobile_text {
   width: 420px;
@@ -336,7 +329,7 @@ section header .main .main_img {
 .clients {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   margin-top: 99px;
 }
@@ -358,7 +351,7 @@ section header .main .main_img {
   display: inline-block;
   width: 56px;
   height: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 .clients .container .clients-inner {
   display: flex;
@@ -535,7 +528,7 @@ footer .footer_main .trafalgar .trafalgar_heading {
   margin-top: 97px;
 }
 footer .footer_main .trafalgar .trafalgar_heading h1 {
-  background-color: #ffffff;
+  background-color: white;
   width: 40.53px;
   height: 41px;
   text-align: center;
@@ -606,6 +599,13 @@ footer .footer_main .help p {
 footer img {
   width: 131.58px;
   height: 115px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
 
 /*# sourceMappingURL=index.css.map */

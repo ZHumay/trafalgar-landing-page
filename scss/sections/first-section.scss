@@ -1,0 +1,101 @@
+
+section {
+    max-width: 1600px;
+  
+    header {
+      max-width: 1600px;
+      margin-top: 45px;
+  
+      .navbar {
+       @include display;
+        .nav_logo {
+       @include display;
+          margin-left: -25px;
+         
+          h1{
+            background-color: $backgroundColor;
+            width: 40.53px;
+            height: 41px;
+            text-align: $text-align;
+            padding-top: 5px;
+            border-radius:$border-radius;
+            color: $color;
+          }
+          h2 {
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 11.86px;
+          }
+        }
+        .nav_list {
+          transform: translateX(60px);
+          ul {
+            list-style: none;
+            display: flex;
+            li {
+              .a-nth-child {
+                text-decoration: none;
+                margin: 0 39.54px;
+                font-weight: 400;
+                font-size: 18px;
+                color: #1f1534;
+                line-height: 23px;
+                opacity: 0.5;
+              }
+              .a-first-child {
+                text-decoration: none;
+                margin: 0 39.54px;
+                font-weight: bold;
+                font-size: 18px;
+                color: #1f1534;
+              }
+            }
+          }
+        }
+      }
+      .main {
+     @include display;
+  
+        .main_items {
+          width: 439.91px;
+          display: flex;
+          flex-direction: column;
+          margin-left: 55px;
+          .points {
+            width: 130px;
+            height: 115px;
+            transform: translateX(-140px);
+          }
+          h1 {
+            font-weight: 700;
+            font-size: 48px;
+            color: black;
+            line-height: 56px;
+            padding-bottom: 25px;
+          }
+          p {
+            font-weight: 300;
+            font-size: 21px;
+            line-height: 32px;
+            color: #7d7987;
+          }
+          button {
+            width: 197.71px;
+            height: 60px;
+            border-radius: 55px;
+            margin-top: 55px;
+            background-color: $backgroundColor;
+            border: none;
+            color: $color;
+            font-weight: 700;
+            font-size: 18px;
+          }
+        }
+        .main_img {
+          width: 685.085px;
+          height: 598px;
+          margin-top: 84px;
+        }
+      }
+    }
+  }

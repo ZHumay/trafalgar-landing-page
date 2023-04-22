@@ -1,0 +1,13 @@
+@mixin button{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    color: #458ff6;
+    border: 1px solid #458ff6;
+    background-color: white;
+}
+@mixin display{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

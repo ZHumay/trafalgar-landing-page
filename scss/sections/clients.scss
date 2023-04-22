@@ -1,0 +1,72 @@
+.clients{
+    @include display;
+      flex-direction: column;
+      margin-top: 99px;
+      .container{
+        width: 1120px;
+    height: 425px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    text-align: $text-align;
+    
+    color: $color;
+    h2{
+      margin-top: 64px;
+      font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    
+    }
+    .hr{
+      display: inline-block;
+      width: 56px;
+      height: 2px;
+      background-color: $color;
+    
+    }
+    .clients-inner{
+      display: flex;
+    align-items: center;
+    margin: 92px;
+    .clients-left{
+      margin: -13px;
+      display: flex;
+      justify-content: space-around;
+      .left-text{
+        margin-left: -96px;
+        margin-top: 30px;
+      }
+      img{
+        margin-right: -40px;
+    
+      }
+      h3{
+        font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: $color;
+    width: 489px;
+      }
+      p{
+        color: $color;
+        margin-left: -70px;
+      }
+    }
+    .clients-right{
+      margin-top: -14px;
+      p{
+        font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 420px;
+    text-align: start;
+    
+      }
+    }
+    }
+      }
+    img{
+      margin-top: 23px;
+    }
+    }

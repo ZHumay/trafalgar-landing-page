@@ -1,0 +1,93 @@
+footer{
+    max-width: 1600px;
+  height: 432px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  margin-top: 90px;
+  .footer_main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .trafalgar{
+    width: 391px;
+   .trafalgar_heading{
+    display: flex;
+    margin-top: 97px;
+    h1{
+      background-color: $color;
+      width: 40.53px;
+      height: 41px;
+   text-align: $text-align;
+      padding-top: 2px;
+      border-radius: $border-radius;
+      color: $backgroundColor;
+      margin-right: 20px;
+      margin-top: -8px;
+    }
+    h2{
+      font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: $color;
+    }
+   
+   }
+   p{font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: $color;
+    margin-top: 22px;
+  }
+  }
+  .company{
+    margin-top: 97px;
+    h2{
+      font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: $color;
+    }
+    p{font-weight: 300;
+      font-size: 18px;
+      line-height: 38px;
+      color: $color;
+  
+    }
+  }
+  .region{
+      margin-top: 97px;
+      h2{
+        font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: $color;
+      }
+      p{font-weight: 300;
+        font-size: 18px;
+        line-height: 38px;
+        color: $color;
+    
+      
+    }
+  }
+  .help{
+    margin-top: 97px;
+    h2{
+      font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: $color;
+    }
+    p{font-weight: 300;
+      font-size: 18px;
+      line-height: 38px;
+      color: $color;
+  
+    
+  }
+  }
+  }
+  img{
+    width: 131.58px;
+  height: 115px;
+  }
+  }
