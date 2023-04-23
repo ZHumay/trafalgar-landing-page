@@ -560,7 +560,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
   section {
-    min-width: 1772px;
+    max-width: 1772px;
     header {
       min-width: 1747px;
       margin-top: 46px;
@@ -1003,7 +1003,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   }
 
   footer {
-    min-width: 1900px;
+    min-width: 1766px;
     height: 1594px;
     background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
     margin-top: 90px;
