@@ -98,41 +98,4 @@
     }
   }
   
-  .providers {
-    width: 1273px;
-  @include display;
-    margin-top: 80px;
-    .provider_text {
-      width: 466px;
-      display: flex;
-      flex-direction: column;
-      h1 {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 56px;
-        color: #000000;
-      }
-      .hr {
-        margin-top: 26px;
-        width: 60px;
-        height: 1px;
-        background-color: black;
-      }
-      p {
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 30px;
-        margin-top: 31px;
-        color: #7d7987;
-      }
-      button {
-        width: 200px;
-        height: 60px;
-        border-radius: 55px;
-        border: 1px solid $backgroundColor;
-        color: $backgroundColor;
-        background-color: $color;
-        margin-top: 37px;
-      }
-    }
-  }
+  
